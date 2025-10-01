@@ -10,7 +10,6 @@
     "list-users": "node scripts/listUsers.js",
     "delete-user": "node scripts/deleteUser.js",
     "reset-admin": "node scripts/resetAdmin.js",
-    "dev": "nodemon server.js",
     "test": "jest",
     "seed": "node scripts/seedDatabase.js",
     "test-auth": "node scripts/testRegistration.js"
