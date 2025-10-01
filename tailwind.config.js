@@ -1,3 +1,7 @@
+
+// ============================================
+// FILE: frontend/tailwind.config.js
+// ============================================
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -39,8 +43,6 @@ export default {
     },
   },
   plugins: [
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/aspect-ratio'),
-    require('@tailwindcss/line-clamp'),
+    require('@tailwindcss/forms')
   ],
 }
